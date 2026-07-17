@@ -19,3 +19,13 @@ Create the Python environment:
 
 ```bash
 python -m venv .venv
+
+## Label Distribution
+
+The dataset contains 359,052 reviews:
+
+- `1` represents a genuine review: 322,167 reviews (89.73%)
+- `-1` represents a fake review: 36,885 reviews (10.27%)
+
+The dataset has an imbalanced label distribution, with fewer fake reviews
+than genuine reviews.

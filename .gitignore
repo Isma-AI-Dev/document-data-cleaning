@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .env
 .vscode/
+# Large dataset files
+data/raw/*.csv
+data/cleaned/*.csv

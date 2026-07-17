@@ -1,0 +1,60 @@
+DAY 2 DATASET VALIDATION REPORT
+===============================
+
+DATASET INFORMATION
+-------------------
+Dataset file: Reviews_fixed.csv
+Total rows: 359,052
+Total columns: 6
+Minimum required rows: 5,000
+Size requirement passed: True
+
+COLUMN NAMES
+------------
+- User_id
+- Product_id
+- Rating
+- Date
+- Review
+- Label
+
+REVIEW QUALITY
+--------------
+Missing reviews: 0
+Empty reviews: 0
+Duplicate reviews: 896
+Complete duplicate rows: 0
+Reviews with possible broken characters: 4
+
+REVIEW LENGTH
+-------------
+Shortest review: 1 characters
+Longest review: 5,000 characters
+Average review length: 635.0 characters
+
+DATE QUALITY
+------------
+Invalid or missing dates: 0
+
+LABEL COUNTS
+------------
+Label
+ 1    322167
+-1     36885
+
+RATING COUNTS
+-------------
+Rating
+1     14224
+2     20775
+3     47646
+4    135250
+5    141157
+
+LABEL DISTRIBUTION
+------------------
+Genuine reviews (1): 322,167 — 89.73%
+Fake reviews (-1): 36,885 — 10.27%
+Total reviews: 359,052
+
+The dataset is imbalanced.
