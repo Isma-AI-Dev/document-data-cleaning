@@ -29,3 +29,15 @@ The dataset contains 359,052 reviews:
 
 The dataset has an imbalanced label distribution, with fewer fake reviews
 than genuine reviews.
+## Dataset Download
+
+The dataset files are not stored directly in this GitHub repository because
+they exceed GitHub's file-size limit.
+
+- Raw dataset: 
+- Encoding-repaired dataset: 
+
+Place the downloaded files in these locations:
+
+- `data/raw/Reviews.csv`
+- `data/cleaned/Reviews_fixed.csv`
