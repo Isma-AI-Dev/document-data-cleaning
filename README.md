@@ -34,8 +34,8 @@ than genuine reviews.
 The dataset files are not stored directly in this GitHub repository because
 they exceed GitHub's file-size limit.
 
-- Raw dataset: 
-- Encoding-repaired dataset: 
+- Raw dataset: https://drive.google.com/file/d/1catABWJLC1kvIX9kAXrcuhfnYkdqsWG9/view?usp=drive_link
+- Encoding-repaired dataset: https://drive.google.com/file/d/1K4v5tZTLDlVxdP0ZcuAoytiIcssJPsMA/view?usp=drive_link
 
 Place the downloaded files in these locations:
 
